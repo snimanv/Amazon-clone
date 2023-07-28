@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon</title>
 </head>
 <body>
-    
+
+    <header>
+        <div class="navbar">
+            <!--LOGO-->
+            <div class="navbar__brand border">
+                <img src="./assests/amazon_logo.png" alt="amazon logo"  class="navbar__brand__logo">
+            </div>
+
+            <!--LOCATION-->
+            <div class="navbar__address border">
+                <div class="navbar__address__delivery">Deliver to</div>
+                <div class="navbar__address__location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="navbar__address__location__place">India</div>
+                </div>
+            </div>
+
+            <!--SEARCH BAR-->
+            <div class="navbar__search">
+                <select class="navbar__search__select" id="">
+                    <option value="">All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="navbar__search__input">
+                <div class="navbar__search__icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
 </body>
 </html>
